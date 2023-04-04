@@ -3,7 +3,7 @@ import io from "socket.io-client";
 import { useEffect, useState } from "react";
 
 
-const socket = io.connect(window.location.hostname);
+const socket = io.connect('https://socket-inky.vercel.app');
 
 function App() {
   //Room State
