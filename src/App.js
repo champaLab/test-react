@@ -3,7 +3,7 @@ import io from "socket.io-client";
 import { useEffect, useState } from "react";
 
 
-const socket = io.connect('https://socket-inky.vercel.app', { transports: ['webauth.userId', 'polling', 'flashauth.userId'] });
+const socket = io.connect('https://socket-ry0n.onrender.com', { transports: ['webauth.userId', 'polling', 'flashauth.userId'] });
 
 function App() {
   //Room State
